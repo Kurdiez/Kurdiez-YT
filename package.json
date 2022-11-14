@@ -20,10 +20,13 @@
     "cmd": "ts-node -r tsconfig-paths/register -P ./tsconfig.json src/main.cmd.ts"
   },
   "dependencies": {
+    "@faker-js/faker": "^7.6.0",
     "@nestjs/common": "^9.0.0",
     "@nestjs/core": "^9.0.0",
     "@nestjs/platform-express": "^9.0.0",
+    "bignumber.js": "^9.1.0",
     "nest-commander": "^3.3.0",
+    "objects-to-csv": "^1.3.6",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.5.5"
   },

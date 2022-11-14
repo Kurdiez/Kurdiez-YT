@@ -1,9 +1,10 @@
 import { Module } from '@nestjs/common';
-import { TestCmd } from './test';
+import { MonthlyIncomeFunds } from './investing/monthlyIncomeFunds';
+import { TestCmd } from './test.cmd';
 
 @Module({
   imports: [],
   controllers: [],
-  providers: [TestCmd],
+  providers: [TestCmd, MonthlyIncomeFunds],
 })
 export class SimulationModule {}
